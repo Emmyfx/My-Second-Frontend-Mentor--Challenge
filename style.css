@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 0);
+}
+.group {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    transition: box-shadow 0.2s;
+}
+.container:hover {
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.container-image svg {
+    width: 100%;
+    border-radius: 50px;
+}
+.first-paragraph {
+    background-color: rgb(185, 185, 47);
+    padding: 5px 10px;
+    width: 60px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+.first-paragraph:hover {
+    cursor: pointer;
+}
+.second-paragraph {
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.third-paragraph {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    transition: color 0.15s;
+}
+.third-paragraph:hover {
+    color: rgb(185, 185, 47);
+    cursor: pointer;
+}
+.fourth-paragraph {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    line-height: 22px;
+}
+.user-container {
+    display: flex;
+    align-items: center;
+}
+.user-container img {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+.user-container p {
+    font-size: 14px;
+    font-weight: bold;
+}
